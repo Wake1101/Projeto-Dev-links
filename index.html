@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br" class="">
+  <head>
+    <!--Código para adicionar fontes especificas para o site-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <!--metadados do site-->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DevLinks</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!--colocando um container para centralizar e organizar tudo-->
+    <div id="container">
+      <div id="profile">
+        <img src="./assets/Avatar.png" alt="" />
+        <p>@Samuelf.pereira</p>
+      </div>
+      <div id="switch" onclick="toggleMode()">
+        <button></button>
+        <span></span>
+      </div>
+      <!--Adicionando uma lista de links para o usuario clicar e ser redirecionado-->
+      <ul>
+        <li>
+          <a
+            href="https://br.linkedin.com/in/samuel-felipe-pereira-9a2aa2287"
+            target="_blank"
+          >
+            Meu Linkedin
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://steamcommunity.com/profiles/76561198241371090/"
+            target="_blank"
+          >
+            Minha Steam
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/Wake1101" target="blank">
+            Veja meu Portifólio
+          </a>
+        </li>
+        <li>
+          <a href="https://www.twitch.tv/wake01" target="_blank">
+            Minha Twitch
+          </a>
+        </li>
+      </ul>
+      <!--adicionando botoes com icones ao site com redirecionador de links-->
+      <div id="social-links">
+        <a href="https://github.com/Wake1101" target="_blank">
+          <ion-icon name="logo-github"></ion-icon>
+        </a>
+        <a href="https://www.instagram.com/samuel_f._pereira" target="_blank">
+          <ion-icon name="logo-instagram"></ion-icon>
+        </a>
+        <a href="https://youtube.com/@Wake1101" target="_blank">
+          <ion-icon name="logo-youtube"></ion-icon>
+        </a>
+        <a href="https://twitter.com/wake1101games" target="_blank">
+          <ion-icon name="logo-twitter"></ion-icon>
+        </a>
+      </div>
+      <!--adicionado o rodapé do site-->
+      <footer>
+        Feito com a ajuda da
+        <a href="https://rocketseat.com.br" target="_blank"> Rocketseat </a>
+      </footer>
+    </div>
+    <!--script para os icones do ionicons funcionarem -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="./Script.js"></script>
+  </body>
+</html>
