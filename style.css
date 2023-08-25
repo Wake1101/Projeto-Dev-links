@@ -32,7 +32,8 @@ body {
   background-size : cover;
   */
   /*Compactando o código para ficar melhor*/
-  background: var(--bg-url) top center/cover;
+  background: var(--bg-url) no-repeat top center/cover;
+  height: 100vh;
 }
 /*aplicando uma regra para todos os elementos do body utlizando o prefixo * */
 body * {
@@ -145,4 +146,13 @@ footer {
   padding: 24px;
   text-align: center;
   font-size: 14px;
+}
+/*media queris*/
+@media (min-width: 700px) {
+  :root {
+    --bg-url: url(./assets/bg-desktop.jpg);
+  }
+  .light {
+    --bg-url: url(./assets/bg-desktop-light.jpg);
+  }
 }
