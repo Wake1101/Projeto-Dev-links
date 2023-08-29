@@ -43,7 +43,7 @@ body * {
 /*Adicionando uma caixa para colocar os elementos da página*/
 #container {
   width: 100%;
-  max-width: 588px;
+  max-width: 700px;
   margin: 56px auto;
   padding: 0 24px;
 }
